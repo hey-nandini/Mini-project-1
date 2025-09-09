@@ -31,7 +31,7 @@ void displayBuses() {
 
 void bookTicket(User *user) {
     if (user->bookedBus != -1) {
-        printf("You already booked a ticket for '%s'.\n", buses[user->bookedBus].name);
+        printf("You already have a ticket booked for '%s'.\n", buses[user->bookedBus].name);
         return;
     }
     displayBuses();
